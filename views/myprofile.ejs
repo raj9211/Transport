@@ -1,0 +1,55 @@
+<body>
+  <form action="/myprofile" method="POST">
+  <link rel="stylesheet" href="css/myprofile.css" />
+
+  <h2><b>EasyVahan</b></h2><br />
+  <div class="tab">
+    <button class="tablinks" onclick="openProfile(event, 'PROFILE')"><b>PROFILE</b></button>
+    <button class="tablinks" onclick="openProfile(event, 'MANAGEDOCUMENTS')"><b>MANAGE DOCUMENTS</b></button>
+    <button class="tablinks" onclick="openProfile(event, 'VEHICLES')"><b>VEHICLES</b></button>
+  </div>
+
+  <div id="PROFILE" class="tabcontent">
+    <h3>My Profile</h3>
+    <label>Name</label><br>
+    <input type="text" id="name" name="name" class="brd"><br><br>
+    <label>Email</label><br>
+    <input type="email" id="email" name="email" class="brd"><br><br>
+    <label>GST</label><br>
+    <input type="text" id="name" name="name" class="brd"><br><br />
+    <label>Update Password</label><br>
+    <input type="password" id="pwd" name="pwd"> <input type="submit" value="Submit">
+  </div>
+
+  <div id="MANAGEDOCUMENTS" class="tabcontent">
+    <h3>ManageDocuments</h3>
+
+    <ul class="list-group">
+      <li class="list-group-item">Driving License <input type="file" id="myFile"></li>
+      <li class="list-group-item">Adhaar Card <input type="file" id="myFile"></li>
+      <li class="list-group-item">Pan Card <input type="file" id="myFile"></li>
+      <li class="list-group-item">Bank Details <input type="file" id="myFile"></li>
+    </ul>
+  </div>
+
+  <!-- Add vehicle code -->
+
+  <div id="VEHICLES" class="tabcontent">
+    <a href="addvehicle.html" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true"><i class="fas fa-plus"></i> ADD VEHICLE</a>
+
+  </div>
+  <div id="VIEW-VEHICLES" class="tabcontent">
+    <a href="#" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true"><i class="fas fa-plus"></i> VIEW VEHICLE</a>
+
+  </div>
+  <!-- sign-up -->
+  <div id="SIGN-UP" class="tabcontent">
+    <a href="registration.html" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true"><i class="fas fa-plus"></i> SIGN UP / LOGIN</a>
+
+  </div>
+
+  <!-- JavaScript source -->
+
+  <script src="javascript/myprofile.js"></script>
+
+</body>

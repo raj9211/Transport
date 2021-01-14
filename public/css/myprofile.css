@@ -1,0 +1,125 @@
+body
+{
+  font-family: "Montserrat";
+  background-color: #f4f4f4;
+}
+
+h2{
+    font-family: "Montserrat-Bold",sans-serif;
+
+}
+h2:hover{
+      color: #1e90ff ;
+}
+
+
+/* Style the tab */
+.tab {
+font-family: "Montserrat-Bold",sans-serif;
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+
+
+/* Style the buttons inside the tab */
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #ccc;
+}
+
+
+
+.tablinks:hover{
+  color: #1e90ff;
+}
+/* Style the tab content */
+.tabcontent {
+font-family: "Montserrat-Bold",sans-serif;
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+}
+.tabcontent:hover{
+  color: #1e90ff;
+}
+
+/* For Submit Button */
+
+input[type="submit"]{
+
+  width: 120px;
+  height: 30px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: "Montserrat-Bold",sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px ;
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px ;
+  transition: 0.1s ease;
+}
+
+
+/* For vehicle Button */
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover{
+  background-color: RoyalBlue;
+}
+
+/* Documnet Upload */
+
+#myFile{
+  position: absolute;
+  right:0;
+  bottom:5px;
+  top:5px;
+  font-size: 14px;
+  padding:10px 10px;
+}
